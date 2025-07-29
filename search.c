@@ -18,8 +18,6 @@ void linearsearch(int a[],int f)
 	puts("number is not found\n");
 	}
 
-
-
 }
 
 int main()
@@ -36,5 +34,6 @@ int main()
 	scanf("%d", &f);
 	linearsearch(a,f);
 	
-	
+	return 0;
+
 } 
