@@ -43,42 +43,34 @@ int main()
 	
 	while(1)
 	{
-	printf("Enter your choice\n");
-	scanf("%d", &c);
+		printf("Enter your choice\n");
+		scanf("%d", &c);
 	
-	switch (c)
-	{
-	case 1:
-	{
-		add();
-		break;
+		switch (c)
+		{
+			case 1:
+				add();
+				break;
+
+			case 2:
+				sub();
+				break;
+
+			case 3:
+				mul();
+				break;
+
+			case 4:
+				Div();
+				break;
+
+			case 5:
+				exit(0);
 	
+			default:
+				printf("wrong input\n");
+		}
 	}
-	case 2:
-	{
-		sub();
-		break;
-	}
-	case 3:
-	{
-		mul();
-		break;
-	}
-	case 4:
-	{
-		Div();
-		break;
-	}
-	case 5:
-	{
-		exit(0);
-	}
-	
-	default:
-	{
-		printf("wrong input\n");
-	}
-	}
-	}
+
 	return(0);
 }
