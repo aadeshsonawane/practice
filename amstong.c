@@ -14,13 +14,9 @@ int main()
 
 	root = (a * a * a) + (b * b * b) + (c * c *c);
 	if(root == num)
-	{
 		printf("it's Armstrong number\n");
-	}
 	else
-	{
 		printf("it's not Armstrong number\n");
-	}
 
 	return 0;
 }
